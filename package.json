@@ -1,0 +1,25 @@
+{
+  "name": "js-tutorial",
+  "version": "1.0.0",
+  "description": "setup for the start of the repo for a, as of yet, unpublished tutorial on JS.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaBevers/testableJS.git"
+  },
+  "keywords": [],
+  "author": "example_user <example-user@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaBevers/testableJS/issues"
+  },
+  "homepage": "https://github.com/JoshuaBevers/testableJS#readme"
+}
