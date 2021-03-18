@@ -8,8 +8,8 @@ function primatives(value) {
   if (typeof value === 'boolean') {
     return Boolean;
   }
-  if (typeof value === 'null') {
-    return null;
+  if (typeof value === 'undefined') {
+    return undefined;
   }
 }
 
