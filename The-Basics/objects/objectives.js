@@ -1,11 +1,14 @@
-const Beth = {
-  name: 'Beth',
+const person = {
+  name: 'person',
   awake: true,
   activity: 'Waking',
+  happiness: 10,
 };
 
-function startWork(Beth) {
-  if (Beth.activity != 'working' && Beth.awake != true) {
-    Beth.activity = 'working';
+function sendHimToWork(person) {
+  if (person.activity != 'working' && person.awake != true) {
+    person.activity = 'working';
+    person.happiness = person.happiness - 1;
   }
 }
+module.exports = sendHimToWork;

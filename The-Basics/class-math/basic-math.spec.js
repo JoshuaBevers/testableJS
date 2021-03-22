@@ -1,5 +1,3 @@
-const { test, expect } = require('@jest/globals');
-
 const mathClass = require('./basic-math');
 
 test('working with our class!', () => {

@@ -1,15 +1,15 @@
 function primatives(value) {
   if (typeof value === 'string') {
-    return String;
+    return 'I am a string!';
   }
   if (typeof value === 'number') {
-    return Number;
+    return 'I am a number!';
   }
   if (typeof value === 'boolean') {
-    return Boolean;
+    return 'I am boolean!';
   }
   if (typeof value === 'undefined') {
-    return undefined;
+    return 'I am undefined!';
   }
 }
 

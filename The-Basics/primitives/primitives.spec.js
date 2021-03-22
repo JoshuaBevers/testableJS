@@ -14,8 +14,8 @@ test('Testing Values', () => {
   let nodef;
   const returnedUndefined = valueFunc(nodef);
 
-  expect(returnedString).toBe(String);
-  expect(returnedNumber).toBe(Number);
-  expect(returnedBoolean).toBe(Boolean);
-  expect(returnedUndefined).toBe(undefined);
+  expect(returnedString).toBe('I am a string!');
+  expect(returnedNumber).toBe('I am a number!');
+  expect(returnedBoolean).toBe('I am boolean!');
+  expect(returnedUndefined).toBe('I am undefined!');
 });
